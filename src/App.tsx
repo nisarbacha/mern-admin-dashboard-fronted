@@ -1,0 +1,11 @@
+function App() {
+ 
+  return (
+    <h1>
+      Good morning, Admin Dashboard!
+    </h1>
+     
+  )
+}
+
+export default App

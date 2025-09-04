@@ -1,1 +1,23 @@
  
+.logo-vertical {
+  background-image: url('../src/assets/images/logo-vertical.jpg');
+  background-size: contain; /* ensures the image scales to fit */
+  background-repeat: no-repeat; /* avoids tiling */
+  background-position: center; /* centers the image */
+  height: 100px; /* adjust as needed */
+}
+.logo-horizontal {
+  background-image: url('../src/assets/images/logo-horizontal.jpg');
+  background-size: contain; /* ensures the image scales to fit */
+  background-repeat: no-repeat; /* avoids tiling */
+  background-position: center; /* centers the image */
+  height: 50px; /* adjust as needed */
+}
+ 
+.recent-activity-item {
+  cursor: pointer; /* changes the cursor to pointer on hover */
+  transition: background-color 0.3s ease; /* smooth transition for background color */
+}
+.recent-activity-item:hover {
+  background-color: #f0f0f0; /* light gray background on hover */
+}
